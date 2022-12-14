@@ -66,12 +66,15 @@ img {
   align-items: center;
   width: 70%;
 }
+
 .social-link--linkedin {
   color: #2d76b0;
 }
+
 .social-link--github {
   color: #000;
 }
+
 .social-link--instagram {
   color: #9a2970;
 }
