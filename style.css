@@ -50,6 +50,9 @@ body {
 img {
   border-radius: 20px !important;
 }
+video {
+  border-radius: 20px !important;
+}
 
 /*--------CSS Animation- social links -------*/
 .wrapper {
