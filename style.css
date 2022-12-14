@@ -49,8 +49,10 @@ body {
 
 img {
   border-radius: 20px !important;
+
+  /*--------Video -------*/
 }
-video {
+wp-block-videoalignwide {
   border-radius: 20px !important;
 }
 
@@ -154,5 +156,3 @@ top: 120px;
   font-size: 20px;
   line-height: 20px;
 }
-
-.arrow src= noun-arrow-3771902.svg.{ image-resolution=100;}
