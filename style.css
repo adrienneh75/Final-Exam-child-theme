@@ -1,0 +1,152 @@
+/*
+Theme Name: Child Theme
+Author: 
+Description: Your description goes here
+Version: 1.0.3
+Template: design-mode
+Theme URI: https://briangardner.com/themes/design-mode/
+This is the child theme for Design Mode theme, generated with Generate Child Theme plugin by catchthemes.
+
+(optional values you can add: Theme URI, Author URI, License, License URI, Tags, Text Domain)
+*/
+
+/*--------Fonts -------*/
+
+@font-face {
+  font-family: "Ambiant";
+  src: url("/.assets/fonts/Ambiant-Regular.otf") format("otf");
+}
+
+@font-face {
+  font-family: "Romie";
+  src: url("/.assets/fonts/Romie.otf") format("otf");
+}
+
+body {
+  background-color: white;
+  font-family: "Romie" !important;
+}
+
+.has-ambiant-font-family {
+  font-family: "Ambiant" !important;
+}
+
+.has-romie-font-family {
+  font-family: "Romie" !important;
+}
+
+/*--------Buttons -------*/
+.wp-block-button__link {
+  background: transparent !important;
+  border-radius: 20px !important;
+  border: 2px solid black !important;
+}
+
+.wp-block-button__link:hover {
+  background-color: black !important;
+  color: white !important;
+}
+
+img {
+  border-radius: 20px !important;
+}
+
+/*--------CSS Animation- social links -------*/
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 800px;
+  height: 50px;
+  transition: all 0.4s ease-out;
+}
+.wrapper__links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+}
+.social-link--linkedin {
+  color: #2d76b0;
+}
+.social-link--github {
+  color: #000;
+}
+.social-link--instagram {
+  color: #9a2970;
+}
+.social-link--dribbble {
+  color: #b53561;
+}
+.social-link .social-svg {
+  width: 4.8rem;
+  height: 4.8rem;
+}
+.social-link .social-svg .social-group__icon {
+  fill: #191308;
+  transition: all 0.2s;
+}
+.social-link .social-svg .social-group__inner-circle {
+  fill: transparent;
+  transition: all 0.2s;
+}
+.social-link .social-svg .social-group__outline {
+  stroke: #191308;
+  transform-origin: 50% 50%;
+  transition: all 0.2s;
+}
+.social-link .social-svg:hover .social-group__icon,
+.social-link .social-svg:active .social-group__icon,
+.social-link .social-svg:focus .social-group__icon {
+  fill: #fffbfa;
+  transition: all 0.45s;
+}
+.social-link .social-svg:hover .social-group__inner-circle,
+.social-link .social-svg:active .social-group__inner-circle,
+.social-link .social-svg:focus .social-group__inner-circle {
+  fill: currentColor;
+  transition: all 0.45s;
+}
+.social-link .social-svg:hover .social-group__inner-circle--instagram,
+.social-link .social-svg:active .social-group__inner-circle--instagram,
+.social-link .social-svg:focus .social-group__inner-circle--instagram {
+  fill: url(#simpleInsta) !important;
+}
+.social-link .social-svg:hover .social-group__outline,
+.social-link .social-svg:active .social-group__outline,
+.social-link .social-svg:focus .social-group__outline {
+  stroke: currentColor;
+  transform: scale(1.1);
+  transition: all 0.45s;
+}
+/*--------Portfolio lit grey image ? Cover block?-------*/
+
+.wp-block-cover
+  alignwide
+  is-light
+  has-custom-content-position
+  is-position-bottom-left {
+  background: transparent !important;
+  border-radius: 20px !important;
+}
+/* Community 
+.gspb_container gspb_container-gsbp-0a9a4515-6ffe wp-block-greenshift-blocks-container{ 
+position: absolute;
+width: 173px;
+height: 24px;
+left: 722px;
+top: 120px;
+}
+*/
+/* Footer header for desktop */
+.gspb_container
+  gspb_container-gsbp-0a9a4515-6ffe
+  wp-block-greenshift-blocks-container {
+  font-family: "Ambiant";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.arrow src= noun-arrow-3771902.svg.{ image-resolution=100;}
