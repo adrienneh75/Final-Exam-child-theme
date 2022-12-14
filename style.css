@@ -49,8 +49,10 @@ body {
 
 img {
   border-radius: 20px !important;
-
-  /*--------Video -------*/
+}
+/*--------Video -------*/
+video {
+  border-radius: 20px !important;
 }
 wp-block-videoalignwide {
   border-radius: 20px !important;
