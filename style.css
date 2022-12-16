@@ -173,8 +173,7 @@ vp-portfolio vp-uid-6000356e vp-id-Z179XyE vp-portfolio__ready {
   background-color: black !important;
   color: white !important;
 }
-.wp-block-button__link .uagb-text-link {
-  background: transparent !important;
+.wp-block-button__link uagb-text-link {
   border-radius: 20px !important;
   border: 2px solid black !important;
 }
