@@ -40,9 +40,13 @@ body {
   border: 2px solid black !important;
   color: black !important; /* red links */
 }
-.uagb-post__text .uagb-post__cta .wp-block-button {
+.uagb-post__text .uagb-post__cta .wp-block-button .read-more {
   color: black !important;
 }
+a:link {
+  color: red;
+} /* red links */
+
 .wp-block-button__link .uagb-text-link {
   color: #000 !important;
 }
