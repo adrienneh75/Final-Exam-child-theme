@@ -11,12 +11,10 @@ This is the child theme for Design Mode theme, generated with Generate Child The
 */
 
 /*--------Fonts -------*/
-
 @font-face {
   font-family: "Ambiant";
   src: url("/.assets/fonts/Ambiant-Regular.otf") format("otf");
 }
-
 @font-face {
   font-family: "Romie";
   src: url("/.assets/fonts/Romie.otf") format("otf");
@@ -40,6 +38,7 @@ body {
   background: transparent !important;
   border-radius: 20px !important;
   border: 2px solid black !important;
+  color: black !important; /* red links */
 }
 
 .wp-block-button__link:hover {
