@@ -40,6 +40,9 @@ body {
   border: 2px solid black !important;
   color: black !important; /* red links */
 }
+.uagb-post__text .uagb-post__cta .wp-block-button {
+  color: black !important;
+}
 
 .wp-block-button__link:hover {
   background-color: black !important;
