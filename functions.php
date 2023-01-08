@@ -15,3 +15,17 @@ function child_theme_enqueue_styles() {
 /*
  * Your code goes below
  */
+*/
+function myfirsttheme_setup() {
+
+    /**
+     * Make theme available for translation.
+     * Translations can be placed in the /languages/ directory.
+     */
+    load_theme_textdomain( 'myfirsttheme', get_template_directory() . '/languages' );
+}
+
+<!--[if IE]>
+<link rel='stylesheet' id='mailchimpSF_ie_css-css' href='https://adriennehaydenfinalproject.dk/wp21A/wp-content/plugins/mailchimp/css/ie.css?ver=6.1.1' media='all' />
+<![endif]-->
+
