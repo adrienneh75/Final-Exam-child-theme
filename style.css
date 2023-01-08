@@ -43,6 +43,9 @@ body {
 .uagb-post__text .uagb-post__cta .wp-block-button {
   color: black !important;
 }
+.wp-block-button__link .uagb-text-link {
+  color: #000 !important;
+}
 
 .wp-block-button__link:hover {
   background-color: black !important;
